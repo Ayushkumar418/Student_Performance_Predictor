@@ -18,7 +18,7 @@ An intelligent machine learning application that predicts student exam scores an
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Ayushkumar418/student-performance-predictor.git
+git clone https://github.com/Ayushkumar418/Student_Performance_Predictor
 cd student-performance-predictor
 ```
 
