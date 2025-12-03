@@ -1,0 +1,107 @@
+{
+    "individual_results": {
+        "Linear Regression": {
+            "train_r2": 1.0,
+            "test_r2": 1.0,
+            "train_mae": 8.55205741186376e-15,
+            "test_mae": 8.588859998068382e-15,
+            "train_rmse": 1.257266492868352e-14,
+            "test_rmse": 1.2408941522359963e-14,
+            "accuracy": 99.99999999999999,
+            "mape": 1.2684643366184238e-14
+        },
+        "Random Forest": {
+            "train_r2": 0.9998777629653187,
+            "test_r2": 0.9996604712384779,
+            "train_mae": 0.0032377204945795266,
+            "test_mae": 0.0046481245893122,
+            "train_rmse": 0.043360388579085786,
+            "test_rmse": 0.06927671795634054,
+            "accuracy": 99.99366936159369,
+            "mape": 0.006330638406313144
+        },
+        "Gradient Boosting": {
+            "train_r2": 0.9999999992534083,
+            "test_r2": 0.9999377000765571,
+            "train_mae": 7.576654313618383e-05,
+            "test_mae": 0.0012229704984540748,
+            "train_rmse": 0.00010716015649517199,
+            "test_rmse": 0.02967513998166182,
+            "accuracy": 99.99808913749723,
+            "mape": 0.001910862502769627
+        }
+    },
+    "best_model": "Linear Regression",
+    "feature_names": [
+        "Grade_Level",
+        "Current_Semester",
+        "Age",
+        "Cumulative_GPA",
+        "Class_Participation_Score",
+        "Hours_Studied",
+        "Attendance",
+        "Parental_Involvement",
+        "Access_to_Resources",
+        "Extracurricular_Activities",
+        "Sleep_Hours",
+        "Previous_Scores",
+        "Motivation_Level",
+        "Internet_Access",
+        "Tutoring_Sessions",
+        "Family_Income",
+        "Teacher_Quality",
+        "School_Type",
+        "Peer_Influence",
+        "Physical_Activity",
+        "Learning_Disabilities",
+        "Parental_Education_Level",
+        "Distance_from_Home",
+        "Gender",
+        "Study_Motivation_Interaction",
+        "Attendance_Parental_Interaction",
+        "Resources_Quality_Interaction",
+        "Hours_Studied_Squared",
+        "Sleep_Hours_Squared",
+        "Engagement_Score",
+        "Support_Index",
+        "Health_Wellness_Score",
+        "Sleep_Distance_from_Optimal",
+        "Is_Senior",
+        "Is_Sophomore"
+    ],
+    "cv_results": {
+        "Linear Regression": {
+            "cv_r2_mean": 1.0,
+            "cv_r2_std": 0.0,
+            "cv_scores": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Random Forest": {
+            "cv_r2_mean": 0.9994276448743717,
+            "cv_r2_std": 0.00037369657930677103,
+            "cv_scores": [
+                0.9994341882615458,
+                0.9995339799073388,
+                0.999794376288803,
+                0.9987201910584788,
+                0.9996554888556919
+            ]
+        },
+        "Gradient Boosting": {
+            "cv_r2_mean": 0.9996676556164946,
+            "cv_r2_std": 0.0002721545998282199,
+            "cv_scores": [
+                0.999975821869519,
+                0.9992489528918748,
+                0.9998594331594604,
+                0.9994538537623793,
+                0.9998002163992395
+            ]
+        }
+    }
+}

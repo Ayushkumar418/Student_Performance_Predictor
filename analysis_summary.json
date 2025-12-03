@@ -1,0 +1,37 @@
+{
+    "total_students": 6607,
+    "mean_score": 67.23565914938702,
+    "std_score": 3.890455781261732,
+    "high_performers": 48,
+    "low_performers": 68,
+    "grade_levels": {
+        "year_1": {
+            "count": 0,
+            "mean_score": NaN
+        },
+        "year_2": {
+            "count": 1641,
+            "mean_score": 67.13833028641072
+        },
+        "year_3": {
+            "count": 1608,
+            "mean_score": 67.2860696517413
+        },
+        "year_4": {
+            "count": 3358,
+            "mean_score": 67.25908278737343
+        }
+    },
+    "top_correlations": {
+        "Cumulative_GPA": 1.0,
+        "Attendance": 0.5810718633120632,
+        "Hours_Studied": 0.44545495407528174,
+        "Class_Participation_Score": 0.4258545863608734,
+        "Previous_Scores": 0.17507908702291072,
+        "Access_to_Resources": 0.16977012589852414,
+        "Parental_Involvement": 0.15711419219792064,
+        "Tutoring_Sessions": 0.1565251853922526,
+        "Parental_Education_Level": 0.1043218067909154,
+        "Peer_Influence": 0.1002165164218997
+    }
+}
