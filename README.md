@@ -496,6 +496,4 @@ If you use this project in research:
 
 ---
 
-**Status**: 🟢 Production Ready | **Version**: 2.0 | **Last Updated**: December 4, 2025
-
 **Ready to improve student performance? [Get Started →](#-quick-start)**
