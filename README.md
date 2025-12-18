@@ -469,20 +469,6 @@ Created with ❤️ for educational institutions
 
 ---
 
-## 🎓 Citation
-
-If you use this project in research:
-```bibtex
-@software{studentperformance2025,
-  author = {Your Name},
-  title = {Student Performance Predictor},
-  year = {2025},
-  url = {https://github.com/yourusername/student-performance-predictor}
-}
-```
-
----
-
 ## 🌟 Key Highlights
 
 ✨ **100% Accurate** predictions on test set  
