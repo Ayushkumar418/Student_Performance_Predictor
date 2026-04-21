@@ -18,7 +18,7 @@ An intelligent machine learning application that predicts student exam scores an
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Ayushkumar418/student-performance-predictor.git
+git clone https://github.com/yourusername/student-performance-predictor.git
 cd student-performance-predictor
 ```
 
@@ -489,20 +489,6 @@ Created with ❤️ for educational institutions
 
 ---
 
-## 🎓 Citation
-
-If you use this project in research:
-```bibtex
-@software{studentperformance2025,
-  author = {Your Name},
-  title = {Student Performance Predictor},
-  year = {2025},
-  url = {https://github.com/yourusername/student-performance-predictor}
-}
-```
-
----
-
 ## 🌟 Key Highlights
 
 ✨ **100% Accurate** predictions on test set  
@@ -515,7 +501,5 @@ If you use this project in research:
 🎯 **Production Ready** code quality  
 
 ---
-
-**Status**: 🟢 Production Ready | **Version**: 2.0 | **Last Updated**: December 4, 2025
 
 **Ready to improve student performance? [Get Started →](#-quick-start)**
