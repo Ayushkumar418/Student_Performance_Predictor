@@ -18,7 +18,7 @@ An intelligent machine learning application that predicts student exam scores an
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/student-performance-predictor.git
+git clone https://github.com/Ayushkumar418/student-performance-predictor.git
 cd student-performance-predictor
 ```
 
@@ -58,10 +58,18 @@ python verify_system.py
 ```bash
 streamlit run app.py
 ```
+**Note**: If `streamlit run app.py` doesn't work on your system, try:
+```bash
+python -m streamlit run app.py
+```
 
 **Advanced Version (5 tabs) - Recommended:**
 ```bash
 streamlit run app_advanced.py
+```
+**Note**: If `streamlit run app_advanced.py` doesn't work on your system, try:
+```bash
+python -m streamlit run app_advanced.py
 ```
 
 The app will open in your browser at: **http://localhost:8501**
@@ -345,6 +353,10 @@ Predictions can be exported as CSV with:
 pip install --upgrade streamlit
 streamlit run app_advanced.py
 ```
+**Note**: If `streamlit run app_advanced.py` doesn't work, try:
+```bash
+python -m streamlit run app_advanced.py
+```
 
 ### Missing statsmodels error
 ```bash
@@ -379,10 +391,18 @@ python train_advanced.py
 ```bash
 streamlit run app_advanced.py
 ```
+**Note**: If `streamlit run app_advanced.py` doesn't work, try:
+```bash
+python -m streamlit run app_advanced.py
+```
 
 ### Server Deployment
 ```bash
 streamlit run app_advanced.py --server.port 8501 --server.address 0.0.0.0
+```
+**Note**: If `streamlit run` doesn't work, try:
+```bash
+python -m streamlit run app_advanced.py --server.port 8501 --server.address 0.0.0.0
 ```
 
 ### Docker (Optional)

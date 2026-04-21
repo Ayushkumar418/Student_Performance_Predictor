@@ -9,22 +9,22 @@
 ```
 ┌─────────────────────────────────────────────┐
 │          User Interface Layer               │
-│  (Streamlit: app.py / app_advanced.py)     │
+│  (Streamlit: app.py / app_advanced.py)      │
 └────────────┬────────────────────────────────┘
              │
 ┌────────────▼────────────────────────────────┐
 │        Data Processing Layer                │
-│  (Pandas, NumPy, Feature Engineering)      │
+│  (Pandas, NumPy, Feature Engineering)       │
 └────────────┬────────────────────────────────┘
              │
 ┌────────────▼────────────────────────────────┐
 │       Machine Learning Layer                │
-│  (Scikit-learn: Linear Regression)         │
+│  (Scikit-learn: Linear Regression)          │
 └────────────┬────────────────────────────────┘
              │
 ┌────────────▼────────────────────────────────┐
 │         Data Storage Layer                  │
-│  (CSV, Pickle, JSON)                       │
+│  (CSV, Pickle, JSON)                        │
 └─────────────────────────────────────────────┘
 ```
 

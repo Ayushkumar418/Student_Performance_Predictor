@@ -148,6 +148,10 @@ python model_analysis.py
 ```bash
 streamlit run app.py
 ```
+**Note**: If `streamlit run app.py` doesn't work on your system, try:
+```bash
+python -m streamlit run app.py
+```
 
 **Features**:
 - Prediction Dashboard
@@ -161,6 +165,10 @@ streamlit run app.py
 #### Step 6.2: Run Advanced Version (Full Features - RECOMMENDED)
 ```bash
 streamlit run app_advanced.py
+```
+**Note**: If `streamlit run app_advanced.py` doesn't work on your system, try:
+```bash
+python -m streamlit run app_advanced.py
 ```
 
 **Features**:
@@ -211,6 +219,8 @@ python train_advanced.py
 
 # Step 3: Run app
 streamlit run app_advanced.py
+# Alternative if streamlit run doesn't work:
+python -m streamlit run app_advanced.py
 ```
 
 **Time**: 10-15 minutes
@@ -226,8 +236,8 @@ streamlit run app_advanced.py
 | `verify_system.py` | Check everything works | Verification | `python verify_system.py` |
 | `test_app.py` | Unit tests | Testing | `python test_app.py` |
 | `model_analysis.py` | Model statistics | Analysis | `python model_analysis.py` |
-| `app.py` | Simple app (3 tabs) | Usage | `streamlit run app.py` |
-| `app_advanced.py` | Advanced app (5 tabs) | Usage | `streamlit run app_advanced.py` |
+| `app.py` | Simple app (3 tabs) | Usage | `streamlit run app.py` or `python -m streamlit run app.py` |
+| `app_advanced.py` | Advanced app (5 tabs) | Usage | `streamlit run app_advanced.py` or `python -m streamlit run app_advanced.py` |
 
 ---
 
@@ -265,7 +275,10 @@ pip install -r requirements.txt
 - Missing models? Run `python train_advanced.py`
 
 ### Problem: "streamlit run app_advanced.py" shows error
-**Solution**: Make sure you ran Steps 1-3 first!
+**Solution**: Make sure you ran Steps 1-3 first! If `streamlit run` doesn't work on your system, try:
+```bash
+python -m streamlit run app_advanced.py
+```
 
 ### Problem: "Port 8501 already in use"
 **Solution**: Use different port:
@@ -442,14 +455,20 @@ python train_advanced.py
 python verify_system.py
 python test_app.py
 streamlit run app_advanced.py
+# Alternative if streamlit run doesn't work:
+python -m streamlit run app_advanced.py
 
 # Quick Setup (just essentials)
 pip install -r requirements.txt
 python train_advanced.py
 streamlit run app_advanced.py
+# Alternative if streamlit run doesn't work:
+python -m streamlit run app_advanced.py
 
 # Just Run App (if already trained)
 streamlit run app_advanced.py
+# Alternative if above doesn't work:
+python -m streamlit run app_advanced.py
 
 # Retrain Model
 python train_advanced.py
